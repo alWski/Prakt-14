@@ -1,5 +1,8 @@
-num = list(map(int, input().split()))
+def calcul_average(number):
+    n_list = list(map(int, number.split()))
+    average = sum(n_list) / len(n_list)
+    return average
 
-ret = sum(num)/len(num)
-
-print(ret)
+num = input()
+result = calcul_average(num)
+print(result)
