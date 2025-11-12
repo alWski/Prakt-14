@@ -1,7 +1,10 @@
-num = list(map(int, input().split()))
+def del_three():
+	num = list(map(int, input().split()))
 
-newNum = num
+	new_num = num
 
-while 3 in newNum:
-    newNum.remove(3)
-print(newNum)
+	while 3 in new_num:
+		new_num.remove(3)
+	return new_num
+result = del_three()
+print(result)
