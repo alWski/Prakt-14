@@ -12,6 +12,11 @@ def extract_words(text):
     
     return result
 
+def main():
+    s = input()
+    print(extract_words(s))
 
-s = input()
-print(extract_words(s))
+if __name__ == "__main__":
+    main()
+
+
