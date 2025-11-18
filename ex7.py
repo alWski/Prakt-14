@@ -9,8 +9,13 @@ def sum_all(numbers):
             nechet += i
             
     return chet, nechet
+    
+def main():
+    num = list(map(int, input().split()))
 
-num = list(map(int, input().split()))
+    chet_sum, nechet_sum = sum_all(num)
+    print(chet_sum, nechet_sum)
 
-chet_sum, nechet_sum = sum_all(num)
-print(chet_sum, nechet_sum)
+if __name__ == "__main__":
+    main()
+
