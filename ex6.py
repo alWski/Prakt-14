@@ -5,5 +5,9 @@ def find_divisors():
         if num % i == 0:
             delit.append(i)
     print(delit)
+    
+def main():
+    find_divisors()
 
-find_divisors()
+if __name__ == "__main__":
+    main()
