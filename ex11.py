@@ -14,6 +14,11 @@ def rotate_list():
     result = lst[pos:] + lst[:pos]
 
     return result
+    
+def main():
+    result = rotate_list()
+    print(result)
 
-result = rotate_list()
-print(result)
+if __name__ == "__main__":
+    main()
+
