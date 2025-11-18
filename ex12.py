@@ -21,11 +21,15 @@ def count_otv(text):
             words_otv.append(word)
     
     return otv_count, no_otv_count, words_otv
+    
+def main():
+    s = input().lower()
 
-s = input().lower()
+    otv, no_otv, words_list = count_otv(s)
 
-otv, no_otv, words_list = count_otv(s)
-
-print(otv)
-print(no_otv)
-print(words_list)
+    print(otv)
+    print(no_otv)
+    print(words_list)
+    
+if __name__ == "__main__":
+    main()
