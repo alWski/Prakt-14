@@ -3,6 +3,10 @@ def calcul_average(number):
     average = sum(n_list) / len(n_list)
     return average
 
-num = input()
-result = calcul_average(num)
-print(result)
+def main():
+    num = input()
+    result = calcul_average(num)
+    print(result)
+
+if __name__ == "__main__":
+    main()
