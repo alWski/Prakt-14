@@ -6,5 +6,10 @@ def del_three():
 	while 3 in new_num:
 		new_num.remove(3)
 	return new_num
-result = del_three()
-print(result)
+
+def main():
+    result = del_three()
+    print(result)
+
+if __name__ == "__main__":
+    main()
