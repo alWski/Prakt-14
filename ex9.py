@@ -30,7 +30,11 @@ def proc_text():
         result.append(word)
     
     return result
+    
+def main():
+    result = proc_text()
+    for word in result:
+        print(word)
 
-result = proc_text()
-for word in result:
-    print(word)
+if __name__ == "__main__":
+    main()
