@@ -9,6 +9,9 @@ def sum_num():
         nList.append(numbers[j-1] + numbers[j+1])
 
     return nList
+def main():
+    result = sum_num()
+    print(result)
 
-result = sum_num()
-print(result)
+if __name__ == "__main__":
+    main()
