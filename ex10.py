@@ -13,8 +13,12 @@ def proc_list():
     del lst1[start:end + 1]
 
     return lst1, lst2
+    
+def main():
+    result1, result2 = proc_list()
+    print(result1)
+    print(result2)
 
+if __name__ == "__main__":
+    main()
 
-result1, result2 = proc_list()
-print(result1)
-print(result2)
